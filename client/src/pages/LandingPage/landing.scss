@@ -3,7 +3,7 @@
         cursor: default;
         display: flex;
         justify-content: center;
-        background-color: rgb(245, 11, 11);
+        background-color: rgb(0, 0, 0);
         background-image: url('../../resources/divide.jpg');
         padding-top: 10vw;
         padding-bottom: 10vw;
@@ -19,22 +19,22 @@
         justify-content: center;
         padding-top: 3%;
     }
-    &__spinner{
-        border:4px solid rgba(0,0,0,.1);
-        width: 36px;
-        height: 36px;
-        border-radius: 50%;
-        border-left-color:#09f;
-        animation:spin 1s ease infinite;
-    }
-    @keyframes spin {
-        0%{
-            transform: rotate(0deg);
-        }
-        100%{
-            transform: rotate(360deg);
-        }
-    }
+    // &__spinner{
+    //     border:4px solid rgba(0,0,0,.1);
+    //     width: 36px;
+    //     height: 36px;
+    //     border-radius: 50%;
+    //     border-left-color:var(--text--color);
+    //     animation:spin 1s ease infinite;
+    // }
+    // @keyframes spin {
+    //     0%{
+    //         transform: rotate(0deg);
+    //     }
+    //     100%{
+    //         transform: rotate(360deg);
+    //     }
+    // }
     &__footer{
         position: fixed;
         bottom: 0;

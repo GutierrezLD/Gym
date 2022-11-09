@@ -10,7 +10,7 @@ export default function Landing() {
                 <h1>GYM PAPARULO </h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda velit quas eaque eveniet earum quia illo, corrupti</p>
             </div>
-            <div className='landing__spinner'></div>
+            {/* <div className='landing__spinner'></div> */}
             <footer className='landing__footer'>
                 <address>
                     Visit us at:<br />
