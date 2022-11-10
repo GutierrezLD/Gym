@@ -1,18 +1,17 @@
 :root {
-    --nav--background--color: #282c34;
-    
-    --background--color: rgb(0, 0, 0);
-    --text--color: rgb(158, 91, 2);
+  --nav--background--color: #282c34;
 
-    --button--background--color: #dbb180;
-    --button--text--color: #000000;
+  --background--color: rgb(0, 0, 0);
+  --text--color: rgb(158, 91, 2);
 
-    --button--background--color--hover: #c08d4b;
-    --button--text--color--hover: #050403;
+  --button--background--color: #dbb180;
+  --button--text--color: #000000;
 
-    --button--background--color--disabled: #5e5e5e;
-    --button--text--color--disabled: #b8b8b8;
+  --button--background--color--hover: #c08d4b;
+  --button--text--color--hover: #050403;
 
-    --input--background--color:#ffff
-  }
-  
+  --button--background--color--disabled: #5e5e5e;
+  --button--text--color--disabled: #b8b8b8;
+
+  --input--background--color: #ffff;
+}

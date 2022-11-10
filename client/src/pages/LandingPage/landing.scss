@@ -1,51 +1,34 @@
-.landing{
-    &__banner{
-        cursor: default;
-        display: flex;
-        justify-content: center;
-        background-color: rgb(0, 0, 0);
-        background-image: url('../../resources/divide.jpg');
-        padding-top: 10vw;
-        padding-bottom: 10vw;
-        background-size: cover;
-        color: aliceblue;
-        font-size: 4vw;
-    }
-    &__text{
-        cursor: default;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding-top: 3%;
-    }
-    // &__spinner{
-    //     border:4px solid rgba(0,0,0,.1);
-    //     width: 36px;
-    //     height: 36px;
-    //     border-radius: 50%;
-    //     border-left-color:var(--text--color);
-    //     animation:spin 1s ease infinite;
-    // }
-    // @keyframes spin {
-    //     0%{
-    //         transform: rotate(0deg);
-    //     }
-    //     100%{
-    //         transform: rotate(360deg);
-    //     }
-    // }
-    &__footer{
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        text-decoration: none;
-        color: rgb(91, 92, 92);
-        &:hover{
-            cursor: default;
-            transition: 0.9ms;
-        }
+.landing {
+  &__banner {
+    cursor: default;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    background-image: url("../../resources/divide.jpg");
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    background-size: cover;
+    color: aliceblue;
+    font-size: 4vw;
+  }
+  &__text {
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3%;
+  }
 
+  &__footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    text-decoration: none;
+    color: rgb(91, 92, 92);
+    &:hover {
+      cursor: default;
+      transition: 0.9ms;
     }
-
+  }
 }
